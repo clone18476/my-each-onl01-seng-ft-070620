@@ -5,7 +5,8 @@ def my_each(array)
   binding.pry
   while i < array.size 
     i += 1
-    yield(array) |i| 
+    yield(array) [i]
+    
   end 
 end
 
